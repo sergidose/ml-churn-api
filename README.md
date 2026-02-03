@@ -51,11 +51,6 @@ curl -X POST "http://127.0.0.1:8000/predict" ^
 .venv\Scripts\python -m pytest -q
 ```
 
-## Docker
+## Run with Docker
 ```bash
 docker compose up --build
-```
-
-Open:
-- http://127.0.0.1:8000/docs
-- http://127.0.0.1:8000/model-info
